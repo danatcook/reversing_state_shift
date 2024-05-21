@@ -1,0 +1,241 @@
+site,treatment,plot,spaceholder,group,initial.cover.spaceholder,final.cover.spaceholder,change.in.cover.spaceholder
+Ava_Iti_East,Palatable-dominated,1,Amansia,Palatable algae,55,0,-55
+Ava_Iti_East,Palatable-dominated,1,Sargassum,Palatable algae,35,10,-25
+Ava_Iti_East,Palatable-dominated,1,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_East,Palatable-dominated,1,Turf/CCA,Turf/CCA,5,85,80
+Ava_Iti_East,Palatable-dominated,2,Amansia,Palatable algae,50,5,-45
+Ava_Iti_East,Palatable-dominated,2,Sargassum,Palatable algae,35,10,-25
+Ava_Iti_East,Palatable-dominated,2,Turbinaria,Unpalatable algae,15,15,0
+Ava_Iti_East,Palatable-dominated,2,Turf/CCA,Turf/CCA,0,70,70
+Ava_Iti_East,Palatable-dominated,3,Amansia,Palatable algae,70,0,-70
+Ava_Iti_East,Palatable-dominated,3,Sargassum,Palatable algae,25,5,-20
+Ava_Iti_East,Palatable-dominated,3,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_East,Palatable-dominated,3,Turf/CCA,Turf/CCA,0,90,90
+Ava_Iti_East,Palatable-dominated,4,Amansia,Palatable algae,65,0,-65
+Ava_Iti_East,Palatable-dominated,4,Sargassum,Palatable algae,20,5,-15
+Ava_Iti_East,Palatable-dominated,4,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_East,Palatable-dominated,4,Turf/CCA,Turf/CCA,10,90,80
+Ava_Iti_East,Palatable-dominated,5,Amansia,Palatable algae,60,0,-60
+Ava_Iti_East,Palatable-dominated,5,Sargassum,Palatable algae,20,5,-15
+Ava_Iti_East,Palatable-dominated,5,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_East,Palatable-dominated,5,Turf/CCA,Turf/CCA,15,90,75
+Ava_Iti_East,Palatable-dominated,6,Amansia,Palatable algae,70,0,-70
+Ava_Iti_East,Palatable-dominated,6,Sargassum,Palatable algae,25,5,-20
+Ava_Iti_East,Palatable-dominated,6,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_East,Palatable-dominated,6,Turf/CCA,Turf/CCA,0,90,90
+Ava_Iti_East,Unpalatable-dominated,1,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,1,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,1,Turbinaria,Unpalatable algae,100,100,0
+Ava_Iti_East,Unpalatable-dominated,1,Turf/CCA,Turf/CCA,0,0,0
+Ava_Iti_East,Unpalatable-dominated,2,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,2,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,2,Turbinaria,Unpalatable algae,90,90,0
+Ava_Iti_East,Unpalatable-dominated,2,Turf/CCA,Turf/CCA,10,10,0
+Ava_Iti_East,Unpalatable-dominated,3,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,3,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,3,Turbinaria,Unpalatable algae,100,95,-5
+Ava_Iti_East,Unpalatable-dominated,3,Turf/CCA,Turf/CCA,0,5,5
+Ava_Iti_East,Unpalatable-dominated,4,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,4,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,4,Turbinaria,Unpalatable algae,90,85,-5
+Ava_Iti_East,Unpalatable-dominated,4,Turf/CCA,Turf/CCA,10,15,5
+Ava_Iti_East,Unpalatable-dominated,5,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,5,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,5,Turbinaria,Unpalatable algae,85,70,-15
+Ava_Iti_East,Unpalatable-dominated,5,Turf/CCA,Turf/CCA,15,30,15
+Ava_Iti_East,Unpalatable-dominated,6,Amansia,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,6,Sargassum,Palatable algae,0,0,0
+Ava_Iti_East,Unpalatable-dominated,6,Turbinaria,Unpalatable algae,90,80,-10
+Ava_Iti_East,Unpalatable-dominated,6,Turf/CCA,Turf/CCA,10,20,10
+Ava_Iti_West,Palatable-dominated,1,Amansia,Palatable algae,55,0,-55
+Ava_Iti_West,Palatable-dominated,1,Sargassum,Palatable algae,35,8,-27
+Ava_Iti_West,Palatable-dominated,1,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_West,Palatable-dominated,1,Turf/CCA,Turf/CCA,5,87,82
+Ava_Iti_West,Palatable-dominated,2,Amansia,Palatable algae,50,5,-45
+Ava_Iti_West,Palatable-dominated,2,Sargassum,Palatable algae,35,35,0
+Ava_Iti_West,Palatable-dominated,2,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_West,Palatable-dominated,2,Turf/CCA,Turf/CCA,10,55,45
+Ava_Iti_West,Palatable-dominated,3,Amansia,Palatable algae,37.5,5,-32.5
+Ava_Iti_West,Palatable-dominated,3,Sargassum,Palatable algae,37.5,25,-12.5
+Ava_Iti_West,Palatable-dominated,3,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_West,Palatable-dominated,3,Turf/CCA,Turf/CCA,20,65,45
+Ava_Iti_West,Palatable-dominated,4,Amansia,Palatable algae,45,0,-45
+Ava_Iti_West,Palatable-dominated,4,Sargassum,Palatable algae,45,30,-15
+Ava_Iti_West,Palatable-dominated,4,Turbinaria,Unpalatable algae,10,10,0
+Ava_Iti_West,Palatable-dominated,4,Turf/CCA,Turf/CCA,0,60,60
+Ava_Iti_West,Palatable-dominated,5,Amansia,Palatable algae,40,10,-30
+Ava_Iti_West,Palatable-dominated,5,Sargassum,Palatable algae,55,55,0
+Ava_Iti_West,Palatable-dominated,5,Turbinaria,Unpalatable algae,5,5,0
+Ava_Iti_West,Palatable-dominated,5,Turf/CCA,Turf/CCA,0,30,30
+Ava_Iti_West,Palatable-dominated,6,Amansia,Palatable algae,45,0,-45
+Ava_Iti_West,Palatable-dominated,6,Sargassum,Palatable algae,45,20,-25
+Ava_Iti_West,Palatable-dominated,6,Turbinaria,Unpalatable algae,10,10,0
+Ava_Iti_West,Palatable-dominated,6,Turf/CCA,Turf/CCA,0,70,70
+Ava_Iti_West,Unpalatable-dominated,1,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,1,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,1,Turbinaria,Unpalatable algae,100,95,-5
+Ava_Iti_West,Unpalatable-dominated,1,Turf/CCA,Turf/CCA,0,5,5
+Ava_Iti_West,Unpalatable-dominated,2,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,2,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,2,Turbinaria,Unpalatable algae,90,90,0
+Ava_Iti_West,Unpalatable-dominated,2,Turf/CCA,Turf/CCA,10,10,0
+Ava_Iti_West,Unpalatable-dominated,3,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,3,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,3,Turbinaria,Unpalatable algae,90,85,-5
+Ava_Iti_West,Unpalatable-dominated,3,Turf/CCA,Turf/CCA,10,15,5
+Ava_Iti_West,Unpalatable-dominated,4,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,4,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,4,Turbinaria,Unpalatable algae,100,100,0
+Ava_Iti_West,Unpalatable-dominated,4,Turf/CCA,Turf/CCA,0,0,0
+Ava_Iti_West,Unpalatable-dominated,5,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,5,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,5,Turbinaria,Unpalatable algae,90,80,-10
+Ava_Iti_West,Unpalatable-dominated,5,Turf/CCA,Turf/CCA,10,20,10
+Ava_Iti_West,Unpalatable-dominated,6,Amansia,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,6,Sargassum,Palatable algae,0,0,0
+Ava_Iti_West,Unpalatable-dominated,6,Turbinaria,Unpalatable algae,85,85,0
+Ava_Iti_West,Unpalatable-dominated,6,Turf/CCA,Turf/CCA,15,15,0
+MRB,Palatable-dominated,1,Amansia,Palatable algae,42.5,0,-42.5
+MRB,Palatable-dominated,1,Sargassum,Palatable algae,42.5,10,-32.5
+MRB,Palatable-dominated,1,Turbinaria,Unpalatable algae,5,5,0
+MRB,Palatable-dominated,1,Turf/CCA,Turf/CCA,10,85,75
+MRB,Palatable-dominated,2,Amansia,Palatable algae,40,0,-40
+MRB,Palatable-dominated,2,Sargassum,Palatable algae,40,0,-40
+MRB,Palatable-dominated,2,Turbinaria,Unpalatable algae,5,5,0
+MRB,Palatable-dominated,2,Turf/CCA,Turf/CCA,15,95,80
+MRB,Palatable-dominated,3,Amansia,Palatable algae,60,0,-60
+MRB,Palatable-dominated,3,Sargassum,Palatable algae,35,10,-25
+MRB,Palatable-dominated,3,Turbinaria,Unpalatable algae,5,5,0
+MRB,Palatable-dominated,3,Turf/CCA,Turf/CCA,0,85,85
+MRB,Palatable-dominated,4,Amansia,Palatable algae,65,0,-65
+MRB,Palatable-dominated,4,Sargassum,Palatable algae,20,0,-20
+MRB,Palatable-dominated,4,Turbinaria,Unpalatable algae,5,5,0
+MRB,Palatable-dominated,4,Turf/CCA,Turf/CCA,10,95,85
+MRB,Palatable-dominated,5,Amansia,Palatable algae,50,0,-50
+MRB,Palatable-dominated,5,Sargassum,Palatable algae,35,5,-30
+MRB,Palatable-dominated,5,Turbinaria,Unpalatable algae,10,5,-5
+MRB,Palatable-dominated,5,Turf/CCA,Turf/CCA,5,90,85
+MRB,Palatable-dominated,6,Amansia,Palatable algae,45,0,-45
+MRB,Palatable-dominated,6,Sargassum,Palatable algae,30,20,-10
+MRB,Palatable-dominated,6,Turbinaria,Unpalatable algae,5,5,0
+MRB,Palatable-dominated,6,Turf/CCA,Turf/CCA,20,75,55
+MRB,Unpalatable-dominated,1,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,1,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,1,Turbinaria,Unpalatable algae,85,80,-5
+MRB,Unpalatable-dominated,1,Turf/CCA,Turf/CCA,15,20,5
+MRB,Unpalatable-dominated,2,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,2,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,2,Turbinaria,Unpalatable algae,90,85,-5
+MRB,Unpalatable-dominated,2,Turf/CCA,Turf/CCA,10,15,5
+MRB,Unpalatable-dominated,3,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,3,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,3,Turbinaria,Unpalatable algae,80,80,0
+MRB,Unpalatable-dominated,3,Turf/CCA,Turf/CCA,20,20,0
+MRB,Unpalatable-dominated,4,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,4,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,4,Turbinaria,Unpalatable algae,90,90,0
+MRB,Unpalatable-dominated,4,Turf/CCA,Turf/CCA,10,10,0
+MRB,Unpalatable-dominated,5,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,5,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,5,Turbinaria,Unpalatable algae,95,95,0
+MRB,Unpalatable-dominated,5,Turf/CCA,Turf/CCA,5,5,0
+MRB,Unpalatable-dominated,6,Amansia,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,6,Sargassum,Palatable algae,0,0,0
+MRB,Unpalatable-dominated,6,Turbinaria,Unpalatable algae,100,95,-5
+MRB,Unpalatable-dominated,6,Turf/CCA,Turf/CCA,0,5,5
+Pharmacy_East,Palatable-dominated,1,Amansia,Palatable algae,55,0,-55
+Pharmacy_East,Palatable-dominated,1,Sargassum,Palatable algae,35,0,-35
+Pharmacy_East,Palatable-dominated,1,Turbinaria,Unpalatable algae,5,0,-5
+Pharmacy_East,Palatable-dominated,1,Turf/CCA,Turf/CCA,5,100,95
+Pharmacy_East,Palatable-dominated,2,Amansia,Palatable algae,55,0,-55
+Pharmacy_East,Palatable-dominated,2,Sargassum,Palatable algae,30,0,-30
+Pharmacy_East,Palatable-dominated,2,Turbinaria,Unpalatable algae,5,5,0
+Pharmacy_East,Palatable-dominated,2,Turf/CCA,Turf/CCA,10,95,85
+Pharmacy_East,Palatable-dominated,3,Amansia,Palatable algae,45,0,-45
+Pharmacy_East,Palatable-dominated,3,Sargassum,Palatable algae,45,5,-40
+Pharmacy_East,Palatable-dominated,3,Turbinaria,Unpalatable algae,10,5,-5
+Pharmacy_East,Palatable-dominated,3,Turf/CCA,Turf/CCA,0,90,90
+Pharmacy_East,Palatable-dominated,4,Amansia,Palatable algae,47.5,0,-47.5
+Pharmacy_East,Palatable-dominated,4,Sargassum,Palatable algae,42.5,0,-42.5
+Pharmacy_East,Palatable-dominated,4,Turbinaria,Unpalatable algae,5,5,0
+Pharmacy_East,Palatable-dominated,4,Turf/CCA,Turf/CCA,5,95,90
+Pharmacy_East,Palatable-dominated,5,Amansia,Palatable algae,50,0,-50
+Pharmacy_East,Palatable-dominated,5,Sargassum,Palatable algae,40,5,-35
+Pharmacy_East,Palatable-dominated,5,Turbinaria,Unpalatable algae,5,5,0
+Pharmacy_East,Palatable-dominated,5,Turf/CCA,Turf/CCA,5,90,85
+Pharmacy_East,Palatable-dominated,6,Amansia,Palatable algae,50,0,-50
+Pharmacy_East,Palatable-dominated,6,Sargassum,Palatable algae,30,5,-25
+Pharmacy_East,Palatable-dominated,6,Turbinaria,Unpalatable algae,10,5,-5
+Pharmacy_East,Palatable-dominated,6,Turf/CCA,Turf/CCA,10,90,80
+Pharmacy_East,Unpalatable-dominated,1,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,1,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,1,Turbinaria,Unpalatable algae,90,50,-40
+Pharmacy_East,Unpalatable-dominated,1,Turf/CCA,Turf/CCA,10,50,40
+Pharmacy_East,Unpalatable-dominated,2,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,2,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,2,Turbinaria,Unpalatable algae,100,35,-65
+Pharmacy_East,Unpalatable-dominated,2,Turf/CCA,Turf/CCA,0,65,65
+Pharmacy_East,Unpalatable-dominated,3,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,3,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,3,Turbinaria,Unpalatable algae,90,20,-70
+Pharmacy_East,Unpalatable-dominated,3,Turf/CCA,Turf/CCA,10,80,70
+Pharmacy_East,Unpalatable-dominated,4,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,4,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,4,Turbinaria,Unpalatable algae,100,35,-65
+Pharmacy_East,Unpalatable-dominated,4,Turf/CCA,Turf/CCA,0,65,65
+Pharmacy_East,Unpalatable-dominated,5,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,5,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,5,Turbinaria,Unpalatable algae,100,70,-30
+Pharmacy_East,Unpalatable-dominated,5,Turf/CCA,Turf/CCA,0,30,30
+Pharmacy_East,Unpalatable-dominated,6,Amansia,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,6,Sargassum,Palatable algae,0,0,0
+Pharmacy_East,Unpalatable-dominated,6,Turbinaria,Unpalatable algae,90,80,-10
+Pharmacy_East,Unpalatable-dominated,6,Turf/CCA,Turf/CCA,10,20,10
+Pharmacy_West,Palatable-dominated,1,Amansia,Palatable algae,60,0,-60
+Pharmacy_West,Palatable-dominated,1,Sargassum,Palatable algae,35,0,-35
+Pharmacy_West,Palatable-dominated,1,Turbinaria,Unpalatable algae,5,0,-5
+Pharmacy_West,Palatable-dominated,1,Turf/CCA,Turf/CCA,0,100,100
+Pharmacy_West,Palatable-dominated,2,Amansia,Palatable algae,50,0,-50
+Pharmacy_West,Palatable-dominated,2,Sargassum,Palatable algae,30,0,-30
+Pharmacy_West,Palatable-dominated,2,Turbinaria,Unpalatable algae,5,0,-5
+Pharmacy_West,Palatable-dominated,2,Turf/CCA,Turf/CCA,15,100,85
+Pharmacy_West,Palatable-dominated,3,Amansia,Palatable algae,60,0,-60
+Pharmacy_West,Palatable-dominated,3,Sargassum,Palatable algae,30,0,-30
+Pharmacy_West,Palatable-dominated,3,Turbinaria,Unpalatable algae,5,1,-4
+Pharmacy_West,Palatable-dominated,3,Turf/CCA,Turf/CCA,5,99,94
+Pharmacy_West,Palatable-dominated,4,Amansia,Palatable algae,60,0,-60
+Pharmacy_West,Palatable-dominated,4,Sargassum,Palatable algae,35,0,-35
+Pharmacy_West,Palatable-dominated,4,Turbinaria,Unpalatable algae,5,0,-5
+Pharmacy_West,Palatable-dominated,4,Turf/CCA,Turf/CCA,0,100,100
+Pharmacy_West,Palatable-dominated,5,Amansia,Palatable algae,42.5,0,-42.5
+Pharmacy_West,Palatable-dominated,5,Sargassum,Palatable algae,42.5,0,-42.5
+Pharmacy_West,Palatable-dominated,5,Turbinaria,Unpalatable algae,5,0,-5
+Pharmacy_West,Palatable-dominated,5,Turf/CCA,Turf/CCA,10,100,90
+Pharmacy_West,Palatable-dominated,6,Amansia,Palatable algae,50,0,-50
+Pharmacy_West,Palatable-dominated,6,Sargassum,Palatable algae,35,0,-35
+Pharmacy_West,Palatable-dominated,6,Turbinaria,Unpalatable algae,10,0,-10
+Pharmacy_West,Palatable-dominated,6,Turf/CCA,Turf/CCA,5,100,95
+Pharmacy_West,Unpalatable-dominated,1,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,1,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,1,Turbinaria,Unpalatable algae,100,5,-95
+Pharmacy_West,Unpalatable-dominated,1,Turf/CCA,Turf/CCA,0,95,95
+Pharmacy_West,Unpalatable-dominated,2,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,2,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,2,Turbinaria,Unpalatable algae,95,15,-80
+Pharmacy_West,Unpalatable-dominated,2,Turf/CCA,Turf/CCA,5,85,80
+Pharmacy_West,Unpalatable-dominated,3,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,3,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,3,Turbinaria,Unpalatable algae,95,60,-35
+Pharmacy_West,Unpalatable-dominated,3,Turf/CCA,Turf/CCA,5,40,35
+Pharmacy_West,Unpalatable-dominated,4,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,4,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,4,Turbinaria,Unpalatable algae,100,0,-100
+Pharmacy_West,Unpalatable-dominated,4,Turf/CCA,Turf/CCA,0,100,100
+Pharmacy_West,Unpalatable-dominated,5,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,5,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,5,Turbinaria,Unpalatable algae,95,0,-95
+Pharmacy_West,Unpalatable-dominated,5,Turf/CCA,Turf/CCA,5,100,95
+Pharmacy_West,Unpalatable-dominated,6,Amansia,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,6,Sargassum,Palatable algae,0,0,0
+Pharmacy_West,Unpalatable-dominated,6,Turbinaria,Unpalatable algae,85,0,-85
+Pharmacy_West,Unpalatable-dominated,6,Turf/CCA,Turf/CCA,15,100,85
