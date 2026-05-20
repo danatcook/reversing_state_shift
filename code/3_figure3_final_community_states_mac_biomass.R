@@ -1,4 +1,4 @@
-# Script to produce figure 3 that shows algal biomass (palatable and unpalatable) in each of the final community states (unpalatable-dominated, palatable-dominated and turf/cca-dominated) from the 2 year competition-palatability trade-off experiment.
+# Script to produce figure 3 that shows algal biomass (palatable and unpalatable) in each of the final community states (unpalatable-dominated, palatable-dominated and turf/cca-dominated) from the 2 year competition-palatability trade-off experiment. Also produces Figure S2 that shows final composition and biomass of focal taxa (Amansia, Sargassum, Turbinaria, and 'other') under ambient herbivory and no herbivory treatments after 2 years.
 
 # Packages -----
 library(tidyverse)
@@ -93,6 +93,11 @@ ggplot(biomass.caged.data, aes(fill=taxa_2, y=weight_g, x=replicate.new.name)) +
         axis.text.x = element_text(angle = 45, hjust=1))
 # save_plot("final.caged.rawbiomass.by.replicate.tiff", 15, 10, 600, "output/Final Communities")
 
+## Calculate the average biomass for the four algal taxa groups at the end of the experiment in the caged treatment: Amansia, Turbinaria, Sargassum, and other
+avg.biomass.caged.final <- biomass.caged.data %>% 
+  group_by(taxa_2, treatment) %>% 
+  summarise(avg.biomass = mean(weight_g, na.rm = TRUE))
+
 # Figure 2a: Exposed plots
 # Stacked barplot of final raw biomass of algal taxa by replicate
 ggplot(biomass.exposed.data, aes(fill=taxa_2, y=weight_g, x=replicate.new.name)) + 
@@ -154,14 +159,14 @@ ggplot(biomass.turb.state.summary,
                 width=.2,
                 position=position_dodge(.9)) +
   xlab("\n Final Community State") +
-  ylab("Mean biomass (+/- SE)") +
+  ylab("Algal biomass (g)") +
   #ggtitle("Final biomass of unpalatable macroalgae") +
   scale_y_continuous(limits = c(0,102), expand = c(0, 0)) +
   theme_classic() +
   theme(text = element_text(size = 23)) +
   theme(axis.text.x = element_text(colour = c(Udom, Pdom, Tdom), face = "bold"))
 
-#save_plot("final.turb.biomass.by.community.state.png", 10, 7, 500, "output/Final Communities")
+save_plot("final.turb.biomass.by.community.state.png", 10, 7, 500, "output/Final Communities")
 
 
 
@@ -210,7 +215,7 @@ ggplot(biomass.palatable.state.summary,
                 width=.2,
                 position=position_dodge(.9)) +
   xlab("\n Final Community State") +
-  ylab("Mean biomass (+/- SE)") +
+  ylab("Algal biomass (g)") +
  # ggtitle("Final biomass of palatable macroalgae") +
   scale_y_continuous(limits = c(0,255), expand = c(0, 0)) +
   theme_classic() +

@@ -40,7 +40,7 @@ cover$site <- sub("_", " ", cover$site) # remove 2nd '_' from site names
 browsing <- read_csv("data/site_ambient_browsing.csv")
 
 # Site names based on browsing level
-site.names <- read_csv("data/raw/site_browsing_names.csv")
+site.names <- read_csv("data/site_browsing_names.csv")
 
 # Add browsing site names to cover data
 cover <- merge(cover, site.names, by = "site")
@@ -59,7 +59,7 @@ initial.assemblage.site <- cover %>%
     n = n(),
     mean = mean(initial.cover.group),
     sd = sd(initial.cover.group),
-    se = se_function(initial.cover.group)
+    se = st.err(initial.cover.group)
   )
 
 # Set order of benthic spaceholders
@@ -103,7 +103,7 @@ final.assemblage.site <- cover %>%
     n = n(),
     mean = mean(final.cover.group),
     sd = sd(final.cover.group),
-    se = se_function(final.cover.group)
+    se = st.err(final.cover.group)
   )
 
 # Set order of benthic spaceholders
@@ -144,7 +144,7 @@ initial.assemblage.browsing <- initial.assemblage.browsing %>%
   summarise(
     n = n(),
     sd = sd(mean),
-    se = se_function(mean),
+    se = st.err(mean),
     max = max(mean),
     min = min(mean),
     mean = mean(mean)
@@ -181,7 +181,7 @@ final.assemblage.browsing <- final.assemblage.browsing %>%
   summarise(
     n = n(),
     sd = sd(mean),
-    se = se_function(mean),
+    se = st.err(mean),
     max = max(mean),
     min = min(mean),
     mean = mean(mean)

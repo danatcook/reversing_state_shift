@@ -99,27 +99,174 @@ sinDat_percConsumpDup <- summarySE(sinDat, measurevar="percConsump", groupvars=c
 # Then calculate mean, count, SD, SE, 95% CI for percent change in weight grouped by taxa and treatment
 sinDat_percConsump <- summarySE(sinDat_percConsumpDup, measurevar = "percConsump", groupvars = c("taxa", "treatment"))
 
-# GGPLOTS: percent consumed--------------------------------
 
-# Plot of percent consumed [abs((initial - final) / initial x 100%)] and average percent consumed +/-SE as a function of algal taxa for CAFETERIA
+
+# GGPLOTS: percent consumed for cafeteria assays --------------------------------
+
+# Scatter plot of means +/-SE of percent consumed for multiple spp (cafeteria) assays
 ggplot()+
-  geom_point(data = cafDat_percConsump, 
+  geom_point(data = cafDat_percConsump %>% 
+               filter(treatment == "Exposed"), 
              aes(x = taxa, 
-                 y = percConsump,
-                 color=treatment),
-             size = 7)+
-  geom_errorbar(data = cafDat_percConsump, 
+                 y = percConsump
+                 #color=treatment),
+             ),
+             size = 4)+
+  geom_errorbar(data = cafDat_percConsump %>% 
+                  filter(treatment == "Exposed"), 
                 aes(x = taxa,
                     ymin = percConsump - se, 
                     ymax = percConsump + se), 
                 width = 0) +
+  # geom_jitter(data = cafDat, 
+  #             aes(x = taxa, 
+  #                 y = percConsump,
+  #                 color=treatment),
+  #             height = 0,
+  #             width = 0.1,
+  #             alpha = 0.4,
+  #             size = 3) +
+  scale_y_continuous(
+    limits = c(0, 100),
+    expand = c(0, 0)
+  ) +
+  labs(x = "",
+       y = "Percent consumed in 48 hr",
+       colour = "Treatment") +
+  ggtitle("Cafeteria-style Assays") +
+  scale_x_discrete(
+    labels = c(
+      "Amansia rhodantha" = "Amansia",
+      "Sargassum pacificum" = "Sargassum",
+      "Turbinaria ornata" = "Turbinaria"
+    )) +
+  theme_classic() +
+  theme(text = element_text(size = 20))  
+
+ggsave("mixAssays_percConsumed_means.tiff", # name of the plot to save, must end with '.png' or other file type
+       width = 7,
+       height = 5,
+       units = "in",
+       dpi = 300, # high resolution
+       path = "output")
+
+# Scatter plot of means +/-SE of percent consumed for singe sp assays
+ggplot()+
+  geom_point(data = sinDat_percConsump %>% 
+               filter(treatment == "Exposed"), 
+             aes(x = taxa, 
+                 y = percConsump),
+                # color=treatment),
+             size = 4)+
+  geom_errorbar(data = sinDat_percConsump %>% 
+                  filter(treatment == "Exposed"), 
+                aes(x = taxa,
+                    ymin = percConsump - se, 
+                    ymax = percConsump + se), 
+                width = 0) +
+  # geom_jitter(data = cafDat, 
+  #             aes(x = taxa, 
+  #                 y = percConsump,
+  #                 color=treatment),
+  #             height = 0,
+  #             width = 0.1,
+  #             alpha = 0.4,
+  #             size = 3) +
+  scale_y_continuous(
+    limits = c(0, 100),
+    expand = c(0, 0)
+  ) +
+  labs(x = "",
+       y = "Percent consumed in 48 hr",
+       colour = "Treatment") +
+  ggtitle("Single Species Assays") +
+  scale_x_discrete(
+    labels = c(
+      "Amansia rhodantha" = "Amansia",
+      "Sargassum pacificum" = "Sargassum",
+      "Turbinaria ornata" = "Turbinaria"
+    )) +
+  theme_classic() +
+  theme(text = element_text(size = 20))
+
+ggsave("sinAssays_percConsumed_means.tiff", # name of the plot to save, must end with '.png' or other file type
+       width = 7,
+       height = 5,
+       units = "in",
+       dpi = 300, # high resolution
+       path = "output")
+
+
+
+
+
+
+
+
+# GRAVEYARD -----
+
+
+
+# Paired line plot of cafeteria assay data, exposed treatment
+# Define ggplot's default blue color
+ggplot_blue <- "#619CFF"
+# Plot of percent consumed [abs((initial - final) / initial x 100%)] for cafeteria assay data
+ggplot(data = cafDat %>% 
+         filter(treatment == "Exposed"), 
+       aes(x = taxa, 
+           y = percConsump,
+           group = replicate)) +
+         geom_point(color = ggplot_blue, size = 3) +  # Scatter points
+         geom_line(color = ggplot_blue, alpha = 1) +  # Lines linking replicates
+  labs(x = "",
+       y = "Percent consumed in 48 hr",
+       colour = "Treatment") +
+  ggtitle("Cafeteria-style Assays") +
+  theme_classic() +
+  theme(text = element_text(size = 20)) 
+
+# ggsave("cafAssays_percConsumed_paired_line_exposed.tiff", # name of the plot to save, must end with '.png' or other file type
+#        width = 11,
+#        height = 6,
+#        units = "in",
+#        dpi = 300, # high resolution
+#        path = "output")
+
+# Paired line plot of cafeteria assay data, cage control treatment
+# Define ggplot's default red color
+ggplot_red <- "#F8766D"
+# Plot of percent consumed [abs((initial - final) / initial x 100%)] for cafeteria assay data
+ggplot(data = cafDat %>% 
+         filter(treatment == "Caged control"), 
+       aes(x = taxa, 
+           y = percConsump,
+           group = replicate)) +
+  geom_point(color = ggplot_red, size = 3) +  # Scatter points
+  geom_line(color = ggplot_red, alpha = 0.5) +  # Lines linking replicates
+  ylim(0, 100) +
+  labs(x = "",
+       y = "Percent consumed in 48 hr",
+       colour = "Treatment") +
+  ggtitle("Cafeteria-style Assays") +
+  theme_classic() +
+  theme(text = element_text(size = 20)) 
+
+# ggsave("cafAssays_percConsumed_paired_line_caged.tiff", # name of the plot to save, must end with '.png' or other file type
+#        width = 11,
+#        height = 6,
+#        units = "in",
+#        dpi = 300, # high resolution
+#        path = "output")
+
+
+ggplot()+
   geom_jitter(data = cafDat, 
               aes(x = taxa, 
                   y = percConsump,
                   color=treatment),
-              height = 0,
-              width = 0.1,
-              alpha = 0.4,
+              height = 0.25, # vertical jitter spread
+              width = 0.25, # horizontal jitter spread
+              alpha = 0.6,
               size = 3) +
   labs(x = "",
        y = "Percent consumed in 48 hr",
@@ -128,7 +275,22 @@ ggplot()+
   theme_classic() +
   theme(text = element_text(size = 20))   
 
-# ggsave("cafAssays_percConsumed.tiff", # name of the plot to save, must end with '.png' or other file type
+# ggsave("cafAssays_percConsumed_scatter.tiff", # name of the plot to save, must end with '.png' or other file type
+#        width = 11,
+#        height = 6,
+#        units = "in",
+#        dpi = 300, # high resolution
+#        path = "output")
+
+# Boxplot of percent consumption data for mixed species assays
+ggplot(cafDat, aes(x = taxa, 
+                   y = percConsump, 
+                   fill = treatment)) +
+  geom_boxplot() +
+  theme_classic() +
+  labs(title = "Mixed-species Assay", x = "Taxa", y = "Percent consumed in 48 hr")
+
+# ggsave("cafAssays_percConsumed_boxplot.tiff", # name of the plot to save, must end with '.png' or other file type
 #        width = 11,
 #        height = 6,
 #        units = "in",
@@ -136,26 +298,18 @@ ggplot()+
 #        path = "output")
 
 
-# Plot of percent consumed [abs((initial - final) / initial x 100%)] and average percent consumed +/-SE as a function of algal taxa for SINGLE SPECIES
-ggplot()+
-  geom_point(data = sinDat_percConsump, 
-             aes(x = taxa, 
-                 y = percConsump,
-                 color=treatment),
-             size = 7)+
-  geom_errorbar(data = sinDat_percConsump, 
-                aes(x = taxa,
-                    ymin = percConsump - se, 
-                    ymax = percConsump + se), 
-                width = 0) +
-  geom_jitter(data = sinDat, 
-              aes(x = taxa, 
-                  y = percConsump,
-                  color=treatment),
-              height = 0,
-              width = 0.1,
-              alpha = 0.4,
-              size = 3) +
+# GGPLOTS: percent consumed for single species assays --------------------------------
+# Plot of percent consumed [abs((initial - final) / initial x 100%)] for single species
+ggplot() +
+geom_jitter(data = sinDat, 
+            aes(x = taxa, 
+                y = percConsump,
+                color=treatment),
+            height = 0.25, # vertical jitter spread
+            width = 0.25, # horizontal jitter spread
+            alpha = 0.7,
+            size = 3) +
+  scale_color_manual(values = c("Caged control" = ggplot_red, "Exposed" = ggplot_blue)) +  # Set custom colors
   labs(x = "",
        y = "Percent consumed in 48 hr",
        colour = "Treatment") +
@@ -163,13 +317,10 @@ ggplot()+
   theme_classic() +
   theme(text = element_text(size = 20))
 
-# ggsave("sinAssays_percConsumed.tiff", # name of the plot to save, must end with '.png' or other file type
+# ggsave("sinAssays_percConsumed_scatter.tiff", # name of the plot to save, must end with '.png' or other file type
 #        width = 11,
 #        height = 6,
 #        units = "in",
 #        dpi = 300, # high resolution
 #        path = "output")
-
-
-
 

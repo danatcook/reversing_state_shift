@@ -113,7 +113,7 @@ Anova(increase.anova, type = "III")
 # Post-hoc analysis: Two-way Anova for increase in turf/CCA cover -----
 #TukeyHSD(increase.anova, which = "ambient.browsing:treatment")
 
-# Table with factors, means and standard deviation
+#Table with factors, means and standard deviation
 data_summary <- turf %>% 
   group_by(ambient.browsing, treatment) %>%
   dplyr::summarise(n = n(),
